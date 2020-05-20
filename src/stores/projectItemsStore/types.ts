@@ -1,0 +1,19 @@
+export const GET_ITEMS_REQUEST = 'GET_ITEMS_REQUEST' as const;
+export const GET_ITEMS_SUCCESS = 'GET_ITEMS_SUCCESS' as const;
+export const GET_ITEMS_FAILURE = 'GET_ITEMS_FAILURE' as const;
+
+export const ADD_TASK_REQUEST = 'ADD_TASK_REQUEST' as const;
+export const ADD_TASK_SUCCESS = 'ADD_TASK_SUCCESS' as const;
+export const ADD_TASK_FAILURE = 'ADD_TASK_FAILURE' as const;
+
+export const DELETE_TASK_REQUEST = 'DELETE_TASK_REQUEST' as const;
+export const DELETE_TASK_SUCCESS = 'DELETE_TASK_SUCCESS' as const;
+export const DELETE_TASK_FAILURE = 'DELETE_TASK_FAILURE' as const;
+
+export const CHANGE_TASK_STATUS_REQUEST = 'CHANGE_TASK_STATUS_REQUEST' as const;
+export const CHANGE_TASK_STATUS_SUCCESS = 'CHANGE_TASK_STATUS_SUCCESS' as const;
+export const CHANGE_TASK_STATUS_FAILURE = 'CHANGE_TASK_STATUS_FAILURE' as const;
+
+export const ASSIGNE_TASK_REQUEST = 'ASSIGNE_TASK_REQUEST' as const;
+export const ASSIGNE_TASK_SUCCESS = 'ASSIGNE_TASK_SUCCESS' as const;
+export const ASSIGNE_TASK_FAILURE = 'ASSIGNE_TASK_FAILURE' as const;
